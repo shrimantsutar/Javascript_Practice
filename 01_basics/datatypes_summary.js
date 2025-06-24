@@ -29,7 +29,7 @@ const bigNumber =12837451827451872n
 
 
 
-// Referance DataType
+// Referance DataType (Non-Primitive )
 
 // Array, Objests, Funstions
 
@@ -55,4 +55,52 @@ const Myfunstion= function(){
 // how to find data type of any dataypes
 
 console.log(typeof mydetails )
+
+
+//   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//     Stack (Primitive Data Types)         Heap (Non-Primitive Data Type)
+
+// Stack
+
+let myYoutubename = "codewithharry"
+
+let anothername = myYoutubename
+
+anothername = "satyabhama blogs"
+
+console.log(anothername)
+console.log(myYoutubename)
+
+
+
+// Heap
+
+
+let UserOne={
+    email:"shrimant@gmail.com",
+    age: 12,
+    address: "aklsjfhlk",
+    contact: 28374628764,
+}
+
+let userTwo = UserOne
+userTwo.email="rohan@mail.com";
+
+
+console.log(UserOne);
+console.log(userTwo);
+
+
+
+
+
+
+
+
+
+
+
+
 
